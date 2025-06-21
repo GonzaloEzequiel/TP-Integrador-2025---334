@@ -1,0 +1,99 @@
+/*
+    Estilos de la página de bienvenida
+*/
+
+:root {
+    --colorPrimarioModoClaro: rgb();
+    --colorSecundarioModoClaro: rgb();
+    --colorTextoModoClaro: rgb();
+    --colorDetallesModoClaro: rgb();
+
+    --colorPrimarioModoOscuro: rgb();
+    --colorSecundarioModoOscuro: rgb();
+    --colorTextoModoOscuro: rgb();
+    --colorDetallesModoOscuro: rgb();
+}
+
+/* ELEMENTOS DEL HEADER */
+header {
+    display: flex;
+    background-color: darkgreen;
+    height: 200px;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#barra-navegacion {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    visibility: hidden;    
+}
+
+.boton-navegacion {
+    height: 30px;
+    width: 150px;
+}
+
+/* ELEMENTOS DEL BODY */
+main {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/893/122/large_2x/soccer-field-in-synthetic-grass-free-photo.jpg);
+    /* margin-bottom: 20px; */
+}
+
+#titulo {
+    margin-top: 0px;
+    font-size: 120px;
+    text-align: center;
+}
+
+#titulo-logo1 {
+    font-size: 150px;
+    color: goldenrod;
+}
+
+#login {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: stretch;
+}
+
+.credenciales-ingreso {
+
+    width: 250px;
+    background-color: aliceblue;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+
+
+/* ELEMENTOS DEL FOOTER */
+footer {
+    /* margin-top: 0px; */
+    /* height: 75px; */
+    background-color: darkolivegreen;
+}
+
+#datos-alumno {
+    /* margin-top: -20px; */
+    width: 100%w;
+    font-style: italic;
+    text-align: center;
+}
