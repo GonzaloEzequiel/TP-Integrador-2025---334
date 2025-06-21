@@ -1,0 +1,11 @@
+id (int) | id_marca (int) | modelo_color (varchar) | talle (int) | precio (float)
+
+
+https://www.nike.com.ar/hombre/calzado/botines?page=1
+
+Nike champion
+
+Adidas
+
+Puma
+

@@ -1,0 +1,24 @@
+id (int) | id_pais (int) | es_titular (bool) | estampa (?, varchar) | precio (float)
+
+Argentina Titular s/estampa
+Argentina Titular 1 Martínez
+Argentina Titular 7 De Paul
+Argentina Titular 10 Messi
+Argentina Titular 11 Di María
+Argentina Suplente s/estampa
+Argentina Suplente 1 Martínez
+Argentina Suplente 7 De Paul
+Argentina Suplente 10 Messi
+Argentina Suplente 11 Di María
+
+Brasil Titular s/estampa
+Brasil Titular 1 Becker
+Brasil Titular 7 Vini Jr
+Brasil Titular 10 Neymar Jr
+Brasil Titular 11 Raphinha
+Brasil Suplente s/estampa
+Brasil Suplente 1 Becker
+Brasil Suplente 7 Vini Jr
+Brasil Suplente 10 Neymar Jr
+Brasil Suplente 11 Raphinha
+
